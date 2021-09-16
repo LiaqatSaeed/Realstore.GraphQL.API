@@ -12,3 +12,6 @@ Apollo Server is a community-maintained open-source GraphQL server that works wi
 
 
 Now Lets create Our Server.js File
+
+## Some More Dependencies for mongoose and graphQL 
+`npm install graphql-compose graphql-compose-mongoose --save`
