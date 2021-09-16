@@ -1,0 +1,22 @@
+{
+  "name": "Realstore.GraphQL.API",
+  "version": "1.0.0",
+  "description": "This is a GraphQL based Node API with mongoDB and mongoose involved ",
+  "main": "server.js",
+  "repository": "https://github.com/LiaqatSaeed/Realstore.GraphQL.API.git",
+  "author": "Liaqat Saeed <liaqatsaeed007@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-core": "^3.3.0",
+    "apollo-server-express": "^3.3.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^15.5.3",
+    "mongoose": "^6.0.6"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --config nodemon.json server.js"
+  }
+}
